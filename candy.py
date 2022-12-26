@@ -36,7 +36,7 @@ while n > 0:
                 print(f'Попробуйте ещё раз, у вас {attempt} попытки')
             else:
                 print(f'У вас закончились попытки. Игра окончена! Победил {player2}')
-                # exit()
+                exit()
         counter1 += a
         if n - a < 0:
             print("Недостаточно конфет")
